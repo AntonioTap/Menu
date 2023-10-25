@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS PROYECTOS JAVA Script</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu-giratorio">
+        <div class="centro" id="centro">
+            <p id="descripcion-proyecto">Haz clic en un proyecto</p>
+            <button onclick="abrirProyecto()">Abrir Proyecto</button>
+        </div>
+        <div class="icono" onclick="mostrarDescripcion('Rick and Morty API', './RickAndMorty/')">
+            🌌 <!-- Icono para Rick and Morty API -->
+        </div>
+        <div class="icono" onclick="mostrarDescripcion('Clima', './APIClima/')">
+            ☁️ <!-- Icono para Clima -->
+        </div>
+        <div class="icono" onclick="mostrarDescripcion('Snake', './Animaciones/')">
+            🐍 <!-- Icono para Snake -->
+        </div>
+        <div class="icono" onclick="mostrarDescripcion('Dibujo', './Canvas/')">
+            🎨 <!-- Icono para Dibujo -->
+        </div>
+        <div class="icono" onclick="mostrarDescripcion('Comidas', './Comidas/')">
+            🍔 <!-- Icono para Comidas -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
